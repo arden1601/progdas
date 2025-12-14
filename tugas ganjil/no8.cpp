@@ -48,7 +48,7 @@ int main()
     fgets(input, sizeof(input), stdin);
     input[strcspn(input, "\n")] = '\0'; // Hapus newline
 
-    // Normalisasi string (hapus spasi, lowercase)
+    // Normalisasi string (hapus spasi, lowercas
     normalizeString(input, normalized);
 
     printf("\nString asli    : \"%s\"\n", input);
